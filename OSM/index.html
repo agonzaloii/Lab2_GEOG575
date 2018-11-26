@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<link href="/img/favicon.ico" rel="icon" type="image/x-icon"/>
+		
+		<title>OSM Changesets 2003-2017</title>
+
+		<!--put your external stylesheet links here-->
+		<link rel="stylesheet" href="css/style.css">
+		<!--[if IE<9]>
+			<link rel="stylesheet" href="css/style.ie.css">
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div id="title">
+			<h1>OSM Changesets for select countries 2003-2017</h1>
+			<div id="descript">This visualization depicts the changes done to OpenStreetMap.Each change is noted as a changeset and can be anything from an addition,deletion, and/or modification of a feature within the map. Data was taken using OSMCHA. Click drop-down menu above to begin exploring.</div>
+
+		</div>
+
+		<div id="map"></div>
+		
+		<div id="credit">Albert Bautista; Data Source: <a href="https://osmcha.mapbox.com/">OSMCHA BY MAPBOX</a></div>
+		
+		
+		<script type="text/javascript" src="lib/d3-queue/d3-queue.js"></script>
+		<script type="text/javascript" src="js/d3/d3.js"></script>
+		<script type="text/javascript" src="lib/topojson/topojson.js"></script>
+		<script type="text/javascript" src="lib/d3-geo-projection/d3-geo-projection.js"></script>
+		<script type="text/javascript" src="lib/simple-statistics.js"></script>
+		<script type="text/javascript" src="lib/simple-statistics.min.js"></script>
+		<script type="text/javascript" src="lib/jquery-3.3.1.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+		
+	</body>
+</html>
